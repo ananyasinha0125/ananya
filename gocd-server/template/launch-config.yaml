@@ -6,7 +6,7 @@ Parameters:
     Type: AWS::EC2::VPC::Id
     Description: VPC ID where the instances will launch
   Subnets:
-    Type: List<AWS::EC2::Subnet::Id
+    Type: List<AWS::EC2::Subnet::Id>
     Description: Subnets for launching EC2 instances
   ImageId:
     Type: AWS::EC2::Image::Id
