@@ -1,10 +1,11 @@
 format_version: 10
 
 pipelines:
-  asg-lc:
-    template: asg-template
+  asg-config:
+    group: asg-template
     label_template: "${COUNT}"
     materials:
-      git:
-        url: https://github.com/ananyasinha0125/ananya.git
+      git-repo:
+        git: https://github.com/ananyasinha0125/ananya.git
         branch: main
+    template: asg-template
