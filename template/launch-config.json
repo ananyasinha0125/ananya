@@ -1,0 +1,22 @@
+[
+  {
+    "ParameterKey": "VpcId",
+    "ParameterValue": "vpc-0675bef05aee329de"
+  },
+  {
+    "ParameterKey": "Subnets",
+    "ParameterValue": "subnet-073955abb4e738ab5,subnet-04cabed7f1027546a6"
+  },
+  {
+    "ParameterKey": "ImageId",
+    "ParameterValue": "ami-006b4a3ad5f56fbd6"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t3.medium"
+  },
+  {
+    "ParameterKey": "SecurityGroupId",
+    "ParameterValue": "sg-0429f5d6e2eb39b5d"
+  }
+]
