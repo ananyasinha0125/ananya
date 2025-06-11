@@ -8,4 +8,3 @@ pipelines:
         git: https://github.com/ananyasinha0125/ananya.git
         username: ananyasinha@0125
         branch: main
-
