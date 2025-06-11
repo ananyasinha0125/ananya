@@ -1,15 +1,15 @@
 [
   {
     "ParameterKey": "VpcId",
-    "ParameterValue": "vpc-0675bef05aee329de"
+    "ParameterValue": "vpc-0eac5d7fce2ce337a"
   },
   {
     "ParameterKey": "Subnets",
-    "ParameterValue": "subnet-073955abb4e738ab5,subnet-04cabed7f1027546a6"
+    "ParameterValue": "subnet-05832620116180af5,subnet-0d2ea147bd37856df"
   },
   {
     "ParameterKey": "ImageId",
-    "ParameterValue": "ami-006b4a3ad5f56fbd6"
+    "ParameterValue": "ami-02457590d33d576c3"
   },
   {
     "ParameterKey": "InstanceType",
@@ -17,6 +17,6 @@
   },
   {
     "ParameterKey": "SecurityGroupId",
-    "ParameterValue": "sg-0429f5d6e2eb39b5d"
+    "ParameterValue": "sg-01763d26b911326e1"
   }
 ]
