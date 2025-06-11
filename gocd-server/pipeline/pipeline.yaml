@@ -1,26 +1,11 @@
 format_version: 10
 pipelines:
-  launch-asg-pipeline:
-    group: cloudformation
-    label_template: "${COUNT}"
+   asg-lc:
+    group: asg-template
+    label_template: ${COUNT}
+    template: asg-template
     materials:
-      git:
-        url: git@github.com:ananyasinha0125/ananya.git
+        git: https://github.com/ananyasinha0125/ananya.git
+        username: ananyasinha@0125
         branch: main
-    stages:
-      - name: generate-asg
-        jobs:
-          - name: launch-asg
-            resources:
-              - cfn-ready
-            tasks:
-              - script: |
-
-                  aws cloudformation deploy \
-                    --template-file launch-config.yaml \
-                    --stack-name ASGviaLC \
-                    --parameter-overrides $(cat launch-config.json | jq -r '.[] | "\(.ParameterKey)=\(.ParameterValue)"' | xargs) \
-                    --capabilities CAPABILITY_NAMED_IAM
-
-
 
