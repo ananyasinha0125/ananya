@@ -1,4 +1,4 @@
-fformat_version: 10
+format_version: 10
 
 pipelines:
   asg-lc:
