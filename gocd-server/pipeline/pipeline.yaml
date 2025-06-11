@@ -1,4 +1,6 @@
 format_version: 10
+type: pipeline
+
 pipelines:
   asg-lc:
     group: asg-template
