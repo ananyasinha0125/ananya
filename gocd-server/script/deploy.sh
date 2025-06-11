@@ -2,9 +2,9 @@
 
 # ========== CONFIGURATION ==========
 STACK_NAME="asg-launch-config"
-TEMPLATE_FILE="launch-config.yaml"
-PARAMS_FILE="launch-config.json"
-REGION="us-east-1"  # Change if needed
+TEMPLATE_FILE="gocd-server/template/launch-config.yaml"
+PARAMS_FILE="gocd-server/template/launch-config.json"
+REGION="us-east-1" 
 # ===================================
 
 echo "🔍 Validating CloudFormation template..."
