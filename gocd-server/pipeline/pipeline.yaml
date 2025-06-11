@@ -9,4 +9,3 @@ pipelines:
         url: https://github.com/ananyasinha0125/ananya.git
         branch: main
     template: asg-template
-
