@@ -1,5 +1,10 @@
 format_version: 10
 
+environments:
+  asg-env:
+    pipelines:
+      - asg-lc
+
 pipelines:
   asg-lc:
     group: asg-template
